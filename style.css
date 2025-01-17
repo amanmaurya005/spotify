@@ -101,19 +101,20 @@ header a{
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 10px;
     background-color: grey;
 }
 .box1{
-    width: 27%;
-    height: 520px;
+    width: 25%;
+    /* height: 520px; */
     background-color: rgba(0, 0, 0, 0.89);
     border-radius: 10px;
     position: fixed;
-    margin: 70px 0 00 10px;
+    margin: 70px 0 00 0px;
+    padding: 10px 0;
 }
 .b1top{
-    padding: 5px 15px;
+    padding: 0px 15px;
     height: 50px;
     color: rgba(255, 255, 255, 0.692);
     display: flex;
@@ -175,10 +176,10 @@ color: white;
         font-weight: 600;
     }
     .bottom1{
-        padding: 40px 0 0 0;
+        padding: 10px 0 0 0;
     }
     .bottom1 a{
-        padding: 0 15px;
+        padding: 0 9px;
         font-size: 13px;
         text-decoration: none;
         color: white;
@@ -202,11 +203,11 @@ color: white;
         padding: 0 5px 00 0;
     }
     .box2{
-        width: 70%;
+        width: 75%;
         background-color: rgba(0, 0, 0, 0.89);
         border-radius: 10px;
         /* height: 600px; */
-        margin: 70px 0 0 400px;
+        margin: 70px 0 0 26%;
     }
     .boxone{
         display: flex;
@@ -224,8 +225,9 @@ color: white;
         color: rgba(255, 255, 255, 0.582);
     }
     .bonepic{
-        padding: 10px 10px 10px 20px;
+        padding: 10px 0px 10px 0px;
         position: relative;
+        width: 15%;
     }
     .play{
         position: absolute;
