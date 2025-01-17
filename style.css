@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px 0 20px ;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+.spotifyicon{
+    width: 10%;
+    font-size: 25px;
+}
+.home input{
+    padding: 11.5px 200px 11.5px 5px;
+    background-color: rgba(128, 128, 128, 0.493);
+    color: white;
+    border: 1px solid  rgba(128, 128, 128, 0.493);
+}
+.home2{
+    padding:5px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.493);
+    margin: 0 10px 0 0 ;
+    font-size: 25px;
+}
+.sign{
+    width: 20%;
+}
+.search2{
+    padding:5px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(128, 128, 128, 0.493);
+    font-size: 24.5px;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search3{
+    padding:5px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(128, 128, 128, 0.493);
+    font-size: 24.5px;
+}
+.sign a{
+    padding: 0 10px;
+}
+.sign button{
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.sign button a{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.box1{
+    width: 30%;
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 10px;
+    
+}
+.b1top{
+    padding: 5px 15px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.692);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.b1icon2{
+    text-align: end;
+}
+.b1mid1{
+width: 90%;
+height: 130px;
+margin: auto;   
+background-color: rgba(128, 128, 128, 0.253); 
+padding: 10px;
+border-radius: 10px ;
+color: white;
+}
+.b1mid1 p{
+    padding: 5px 0;
+}
+.b1mid1 button{
+    padding: 5px 13px;
+    border-radius: 10px;
+    border: 1px solid  rgba(128, 128, 128, 0.253);
+    margin: 10px 0 0 0;
+
+}
+.b1mid1 button a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.b1mid1{
+    width: 90%;
+    height: 130px;
+    margin: 10px 0 0 20px;   
+    background-color: rgba(128, 128, 128, 0.253); 
+    padding: 10px;
+    border-radius: 10px ;
+    color: white;
+    }
+    .b1mid1 p{
+        padding: 5px 0;
+    }
+    .b1mid1 button{
+        padding: 5px 13px;
+        border-radius: 10px;
+        border: 1px solid  rgba(128, 128, 128, 0.253);
+        margin: 10px 0 0 0;
+    
+    }
+    .b1mid1 button a{
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .bottom1{
+        padding: 40px 0 0 0;
+    }
+    .bottom1 a{
+        padding: 0 18px;
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+    }
+    .cook a{
+        font-size: 14px;
+    }
+    .bottom1 button a{
+        padding: 0px 15px;
+        display: flex;
+        font-size: 16px;
+    }
+    .bottom1 button{
+        margin: 20px 0 0 15px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.733);
+        background-color:rgba(0, 0, 0, 0.89);
+
+    }
+    .glob{
+        padding: 0 5px 00 0;
+    }
+    .box2{
+        width: 68%;
+        background-color: rgba(0, 0, 0, 0.89);
+        border-radius: 10px;
+        height: 600px;
+    }
