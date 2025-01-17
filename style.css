@@ -4,16 +4,23 @@
     box-sizing: border-box;
     font-family: "Poppins";
 }
+.head{
+    z-index: 1;
+    position: relative;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 0px 0 20px ;
     background-color: black;
-    height: 60px;
+    height: 80px;
     width: 100%;
     margin: auto;
+    position: fixed;
 }
+
 header a{
     color: white;
     text-decoration: none;
@@ -41,7 +48,10 @@ header a{
     border-radius: 50%;
     background-color: rgba(128, 128, 128, 0.493);
     margin: 0 10px 0 0 ;
-    font-size: 25px;
+    font-size: 24px;
+}
+.home2:hover{
+    font-size: 27px;
 }
 .sign{
     width: 20%;
@@ -66,6 +76,11 @@ header a{
     border-radius: 0 20px 20px 0;
     background-color: rgba(128, 128, 128, 0.493);
     font-size: 24.5px;
+    color: rgba(255, 255, 255, 0.753);
+}
+.search3:hover{
+    color: white;
+    font-size: 26px;
 }
 .sign a{
     padding: 0 10px;
@@ -84,16 +99,18 @@ header a{
 }
 .main{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    /* align-items: center; */
+    justify-content: space-between;
     padding: 20px 0;
+    background-color: grey;
 }
 .box1{
-    width: 30%;
+    width: 27%;
     height: 520px;
     background-color: rgba(0, 0, 0, 0.89);
     border-radius: 10px;
-    
+    position: fixed;
+    margin: 70px 0 00 10px;
 }
 .b1top{
     padding: 5px 15px;
@@ -161,7 +178,7 @@ color: white;
         padding: 40px 0 0 0;
     }
     .bottom1 a{
-        padding: 0 18px;
+        padding: 0 15px;
         font-size: 13px;
         text-decoration: none;
         color: white;
@@ -185,8 +202,124 @@ color: white;
         padding: 0 5px 00 0;
     }
     .box2{
-        width: 68%;
+        width: 70%;
         background-color: rgba(0, 0, 0, 0.89);
         border-radius: 10px;
-        height: 600px;
+        /* height: 600px; */
+        margin: 70px 0 0 400px;
+    }
+    .boxone{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .box2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .box2 h2{
+        padding: 10px ;
+    }
+    .box2 p a{
+        color: rgba(255, 255, 255, 0.582);
+    }
+    .bonepic{
+        padding: 10px 10px 10px 20px;
+        position: relative;
+    }
+    .play{
+        position: absolute;
+            background-color: green;
+            border-radius: 50%;
+            padding: 5px 15px;
+            font-size: 22px;
+            position: absolute;
+            top: 100px;
+            right: 30px;
+            color: black;
+            /* overflow: hidden; */
+    }
+    .bonepic01{
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .bonepic01 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .boxtwo{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-evenly;
+    }
+    .bonepic02{
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+        border-radius: 4%;
+    }
+    .bonepic02 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 4%;
+    }
+    .boxtwo p{
+        font-size: 13px;
+    }
+    .footer{
+        display: flex;
+        color: white;
+        padding: 20px 0 20px 0px;
+    }
+    .footer p a{
+        font-size: 15px;
+        padding: 10px 0;
+        color: rgba(255, 255, 255, 0.596);
+    }
+    .foot1{
+        padding: 0 30px;
+    }
+    .fcon{
+        padding: 0 8px;
+        font-size: 20px;
+    }
+    .footicon{
+        padding: 0 0 0 0px;
+    }
+    .foothr{
+        width: 95%;
+        margin: auto;
+        height: .5px;
+        color: rgba(255, 255, 255, 0.144);    
+    }
+    .foot2025{
+        color: white;
+        padding: 0 0 0 45px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .top a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    .foot1 p a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    .boxone h4 a:hover{
+        text-decoration: underline;
+    }
+    .boxtwo h4 a:hover{
+        text-decoration: underline;
     }
